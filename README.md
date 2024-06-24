@@ -11,7 +11,7 @@ This repository contains a project focused on Natural Language Processing (NLP) 
 ### Improved Approach
 - **Preprocessing with NLTK:**
   - Removal of stopwords
-  - Removal of punctuation
+  - Removal of punctuation and accents
   - Stemming: Converting words to their root form (e.g., "correr" and "corrida" to "corr")
 - **TF-IDF Vectorization:**
   - Normalizes and considers term frequency to classify relevance
@@ -28,6 +28,11 @@ This project was completed as part of the 'Advanced Machine Learning' course on 
 - Create visualizations to facilitate the analysis of textual data.
 - Start using NLTK, one of the main Python libraries for NLP.
 - Learn best practices for NLP.
+- Improve classification results by normalizing texts.
+- Learn how to use TF-IDF and n-grams to improve classification.
+- Understand how text normalization improves data visualization.
+- Advance in using the NLTK library.
+- Learn to use SKlearn resources to optimize classification.
 
 ## Technologies Used
 - Python
@@ -43,12 +48,11 @@ This project was completed as part of the 'Advanced Machine Learning' course on 
 ## Project Structure
 The directory structure of the project is as follows:
 ```
-linguagem-natural-nlp-com-análise-de-sentimento/
-│   database-project-05-small.csv
+linguagem-natural-nlp-com-analise-de-sentimento/
+│   database-project-05-small.csv (file size reduced to meet GitHub limitations)
 │   project-05.ipynb
 │   README.md
 ```
-**Note:** The original dataset has been replaced with a smaller dataset named `database-project-05-small.csv` to comply with GitHub's file size limitations.
 
 ## Setup Instructions
 1. Clone the repository:
